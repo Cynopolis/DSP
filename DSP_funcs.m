@@ -4,5 +4,9 @@ classdef DSP_funcs
             w(abs(w) > pi)=0;
             H = pi*w*100;
         end
+
+        function yr = continuous(xn, T)
+            test = 
+        end
     end
 end
